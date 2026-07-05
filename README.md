@@ -154,57 +154,57 @@ The project follows a modular pipeline that integrates simulation, computer visi
 
 ```text
 
-&#x20;                    ┌──────────────────────────┐
+                    ┌──────────────────────────┐
 
-&#x20;                    │     CARLA Simulator      │
+                    │     CARLA Simulator      │
 
-&#x20;                    └────────────┬─────────────┘
+                    └────────────┬─────────────┘
 
-&#x20;                                 │
+                                 │
 
-&#x20;                                 ▼
+                                 ▼
 
-&#x20;                    RGB Camera Sensor Stream
+                    RGB Camera Sensor Stream
 
-&#x20;                                 │
+                                 │
 
-&#x20;                                 ▼
+                                 ▼
 
-&#x20;                 YOLOv8 Vehicle Detection Model
+                 YOLOv8 Vehicle Detection Model
 
-&#x20;                                 │
+                                 │
 
-&#x20;                                 ▼
+                                 ▼
 
-&#x20;                Deep SORT Multi-Object Tracking
+                Deep SORT Multi-Object Tracking
 
-&#x20;                                 │
+                                 │
 
-&#x20;                ┌────────────────┴────────────────┐
+                ┌────────────────┴────────────────┐
 
-&#x20;                ▼                                 ▼
+                ▼                                 ▼
 
-&#x20;         Vehicle Counting                 Traffic Statistics
+         Vehicle Counting                 Traffic Statistics
 
-&#x20;                │                                 │
+                │                                 │
 
-&#x20;                └────────────────┬────────────────┘
+                └────────────────┬────────────────┘
 
-&#x20;                                 ▼
+                                 ▼
 
-&#x20;                          MQTT Publisher
+                          MQTT Publisher
 
-&#x20;                                 │
+                                 │
 
-&#x20;                                 ▼
+                                 ▼
 
-&#x20;                        InfluxDB Time-Series DB
+                        InfluxDB Time-Series DB
 
-&#x20;                                 │
+                                 │
 
-&#x20;                                 ▼
+                                 ▼
 
-&#x20;                     Streamlit Analytics Dashboard
+                     Streamlit Analytics Dashboard
 
 ```
 

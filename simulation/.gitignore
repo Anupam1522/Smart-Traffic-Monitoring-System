@@ -1,0 +1,5 @@
+*.png
+_out/
+cache/
+datasets/
+saved_frames/

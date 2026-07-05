@@ -104,39 +104,39 @@ The project demonstrates how Artificial Intelligence and Intelligent Transportat
 
 CARLA Simulation
 
-&#x20;       │
+       │
 
-&#x20;       ▼
+       ▼
 
 RGB Camera Stream
 
-&#x20;       │
+       │
 
-&#x20;       ▼
+       ▼
 
 YOLOv8 Vehicle Detection
 
-&#x20;       │
+       │
 
-&#x20;       ▼
+       ▼
 
 Deep SORT Tracking
 
-&#x20;       │
+       │
 
-&#x20;       ▼
+       ▼
 
 Traffic Statistics
 
-&#x20;       │
+       │
 
-&#x20;       ▼
+       ▼
 
 MQTT Publisher
 
-&#x20;       │
+       │
 
-&#x20;       ▼
+       ▼
 
 Streamlit Dashboard
 
